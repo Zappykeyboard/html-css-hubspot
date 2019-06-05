@@ -8,12 +8,10 @@
 /* altezza delle sezioni */
 .short{
   height:70px;
-  background-color: aqua;
 }
 
 .tall{
   height:300px;
-  background-color: bisque;
 }
 
 .col{
@@ -21,17 +19,29 @@
   border: 1px solid black;
 }
 
+.margin-auto{
+  margin: auto;
+
+}
 /* dimensione delle colonne */
 .col-half{
   width: 50%;
 }
 
 .col-third{
-  width: calc(100%/3);
+  width: 33.3%;
+}
+
+.col-two-thirds{
+  width: 66.6%;
 }
 
 .col-fourth{
-  width: calc(100%/4);
+  width: 25%;
+}
+
+.col-three-fourths{
+  width: 75%;
 }
 
 /* Floats */
@@ -74,8 +84,20 @@
   background-color: aqua;
 }
 
+.bk-light{
+  background-color: #f5f8fa;
+}
+
 .bk-blue{
   background-color: steelblue;
+}
+
+.bk-white{
+  background-color: white;
+}
+
+.bk-orange{
+  background-color: orange;
 }
 
 /* colore del testo */
@@ -85,4 +107,9 @@
 
 .text-white{
   color: white;
+}
+
+/* display inline-block */
+.inline-block{
+  display: inline-block;
 }
