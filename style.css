@@ -53,7 +53,8 @@
   float:right
 }
 
-/* clear-fix */
+/* clear-fix, un elemento deve avere classe row se contiene
+colonne flottanti come discendenti diretti */
 .row::after{
   content: "";
   display: table;
@@ -81,7 +82,7 @@
 
 /* colori di sfondo */
 .bk-aqua{
-  background-color: aqua;
+  background-color: #00aab6;
 }
 
 .bk-light{
@@ -89,7 +90,7 @@
 }
 
 .bk-blue{
-  background-color: steelblue;
+  background-color: #33475b;
 }
 
 .bk-white{
