@@ -4,3 +4,29 @@
   box-sizing: border-box;
 }
 
+
+/* altezza delle sezioni */
+.short{
+  height:70px;
+  background-color: aqua;
+}
+
+.tall{
+  height:300px;
+  background-color: bisque;
+}
+
+/* dimensione delle colonne */
+.col-half{
+  width: 50%;
+  border: 1px solid black;
+}
+
+/* Floats */
+.left{
+  float:left;
+}
+
+.right{
+  float:right
+}
