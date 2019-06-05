@@ -19,7 +19,17 @@
   width: 100px;
 }
 
+
 #hero-pitch{
   width: 80%;
   margin-left:20%;
+}
+
+/*sezione crm*/
+#crm-features{
+  width: 90%;
+}
+#btn-crm{
+  height: 30px;
+  width: 100px;
 }

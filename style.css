@@ -76,8 +76,8 @@ colonne flottanti come discendenti diretti */
 
 /* dimensioni delle immagini */
 .img-medium{
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
 }
 
 /* colori di sfondo */
@@ -113,6 +113,7 @@ colonne flottanti come discendenti diretti */
 /*bottoni*/
 
 button{
+  border: none;
   border-radius: 2px;
 }
 
@@ -125,6 +126,10 @@ button{
   background-color: #f5f8fa;
 }
 
+.btn-orange{
+  color: white;
+  background-color: orange;
+}
 
 /* display inline-block */
 .inline-block{
