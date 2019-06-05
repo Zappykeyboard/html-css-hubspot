@@ -16,10 +16,22 @@
   background-color: bisque;
 }
 
+.col{
+  position: relative;
+  border: 1px solid black;
+}
+
 /* dimensione delle colonne */
 .col-half{
   width: 50%;
-  border: 1px solid black;
+}
+
+.col-third{
+  width: calc(100%/3);
+}
+
+.col-fourth{
+  width: calc(100%/4);
 }
 
 /* Floats */
@@ -29,4 +41,48 @@
 
 .right{
   float:right
+}
+
+/* clear-fix */
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* centra i contenuti nei contenitori */
+.content-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+/* centra il testo nei contenitori */
+.text-center{
+  text-align: center;
+}
+
+/* dimensioni delle immagini */
+.img-medium{
+  height: 150px;
+  width: 150px;
+}
+
+/* colori di sfondo */
+.bk-aqua{
+  background-color: aqua;
+}
+
+.bk-blue{
+  background-color: steelblue;
+}
+
+/* colore del testo */
+.text-bluish{
+  color: #33475b;
+}
+
+.text-white{
+  color: white;
 }
