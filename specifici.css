@@ -1,0 +1,9 @@
+.orange-checkmark{
+  background-color: orangered;
+  border-radius: 100%;
+  width: 1em;
+  height: 1em;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
