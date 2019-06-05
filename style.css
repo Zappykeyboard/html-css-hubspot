@@ -16,7 +16,7 @@
 
 .col{
   position: relative;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .margin-auto{
@@ -109,6 +109,22 @@ colonne flottanti come discendenti diretti */
 .text-white{
   color: white;
 }
+
+/*bottoni*/
+
+button{
+  border-radius: 2px;
+}
+
+.btn-white{
+  background-color: white;
+  color: #33475b;
+}
+
+.btn-white:hover{
+  background-color: #f5f8fa;
+}
+
 
 /* display inline-block */
 .inline-block{

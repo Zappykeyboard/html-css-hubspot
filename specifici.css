@@ -1,3 +1,6 @@
+/* regole specifiche per alcuni elementi */
+
+/*segni di spunta tondi arancioni*/
 .orange-checkmark{
   background-color: orangered;
   border-radius: 100%;
@@ -6,4 +9,17 @@
   color: white;
   display: inline-block;
   text-align: center;
+}
+
+/*sezione hero*/
+
+/*bottone hero*/
+#btn-hs-hero{
+  height: 30px;
+  width: 100px;
+}
+
+#hero-pitch{
+  width: 80%;
+  margin-left:20%;
 }
