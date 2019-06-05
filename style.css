@@ -69,9 +69,13 @@ colonne flottanti come discendenti diretti */
   transform: translate(-50%, -50%)
 }
 
-/* centra il testo nei contenitori */
+/* posiziona il testo nei contenitori */
 .text-center{
   text-align: center;
+}
+
+.text-right{
+  text-align: right;
 }
 
 /* dimensioni delle immagini */
@@ -134,4 +138,8 @@ button{
 /* display inline-block */
 .inline-block{
   display: inline-block;
+}
+
+.block *{
+  display: block;
 }
