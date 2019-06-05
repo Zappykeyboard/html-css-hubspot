@@ -38,18 +38,22 @@
 
 #community-first-row{
   width:80%;
-  height: 90px;
+  height: 80px;
   border-bottom: 1px solid white;
 }
 
  #community-second-row{
   width:80%;
-  height: 90px;
+  height: 80px;
 } 
+
+#community-first-row div div,
+#community-second-row div div{
+  height: 70px;
+
+}
 
 .border-left
 {
   border-right: 1px solid white;
 }
-/* 
-#community-first-row:nth-child(1) */
