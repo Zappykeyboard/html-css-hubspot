@@ -50,7 +50,7 @@
 
 /*sezione crm*/
 #crm-features{
-  width: 90%;
+  margin-top: 10%
 }
 #btn-crm{
   height: 30px;
@@ -69,6 +69,12 @@
 
 #altri-servizi li{
   line-height: 1.5em
+}
+
+
+/*intro community*/
+#community-intro{
+  padding: 5% 0;
 }
 
 /*griglia community*/
