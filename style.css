@@ -14,14 +14,28 @@
   height:300px;
 }
 
+.x-tall{
+  height:500px;
+}
+
+/*setta position degli elementi a colonna*/
 .col{
   position: relative;
 }
 
+
+/*larghezza elemento*/
+.full-width{
+  width: 100%;
+}
+
+/*setta margine*/
 .margin-auto{
   margin: auto;
 
 }
+
+
 /* dimensione delle colonne */
 .col-half{
   width: 50%;
@@ -152,4 +166,15 @@ button{
 a{
   text-decoration: none;
   color: inherit;
+}
+
+/*segni di spunta tondi arancioni*/
+.orange-checkmark{
+  background-color: orangered;
+  border-radius: 100%;
+  width: 1em;
+  height: 1em;
+  color: white;
+  display: inline-block;
+  text-align: center;
 }

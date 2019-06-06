@@ -15,7 +15,6 @@
   font-size: 12px;
 }
 
-
 #navbar-get-hs button{
   font-size: 9px;
   width: 150px;
@@ -30,15 +29,8 @@
   background-color: orangered;
 }
 
-/*segni di spunta tondi arancioni*/
-.orange-checkmark{
-  background-color: orangered;
-  border-radius: 100%;
-  width: 1em;
-  height: 1em;
-  color: white;
-  display: inline-block;
-  text-align: center;
+#navbar-pricing li{
+  margin: 0 1em;
 }
 
 /*sezione hero*/
