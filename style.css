@@ -135,10 +135,11 @@ button{
 }
 
 /* display inline-block */
-.inline-block{
+.inline-block *{
   display: inline-block;
 }
 
+/* display block */
 .block *{
   display: block;
 }

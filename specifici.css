@@ -1,5 +1,16 @@
 /* regole specifiche per alcuni elementi */
 
+/*navbar superiore*/
+#navbar-top-left li{ 
+  margin: 1em 1em;
+  font-size: 12px;
+}
+
+#navbar-top-right li{
+  margin: 1em 1em;
+  font-size: 12px;
+}
+
 /*segni di spunta tondi arancioni*/
 .orange-checkmark{
   background-color: orangered;
@@ -52,7 +63,9 @@
   height: 100%;
 }
 
-.border-left
+.border-right
 {
   border-right: 1px solid white;
 }
+
+
