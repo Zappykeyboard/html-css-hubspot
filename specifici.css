@@ -1,14 +1,33 @@
 /* regole specifiche per alcuni elementi */
 
 /*navbar superiore*/
-#navbar-top-left li{ 
-  margin: 1em 1em;
+
+#navbar-top-left ul{
+  margin-top: 35px; 
+}
+
+#navbar-top-left li,
+#navbar-top-right li,
+#navbar-language li
+{ 
+  padding: 0 1em;
+  margin: 0 1em;
   font-size: 12px;
 }
 
-#navbar-top-right li{
-  margin: 1em 1em;
-  font-size: 12px;
+
+#navbar-get-hs button{
+  font-size: 9px;
+  width: 150px;
+  height: 25px;
+  background-color: rgb(236, 113, 68);
+  border: 2px solid black;
+  color: white;
+  cursor: pointer;
+}
+
+#navbar-get-hs button:hover{
+  background-color: orangered;
 }
 
 /*segni di spunta tondi arancioni*/

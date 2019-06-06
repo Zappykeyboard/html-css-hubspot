@@ -83,6 +83,10 @@ colonne flottanti come discendenti diretti */
   width: 120px;
 }
 
+.icon{
+  height: 10px;
+}
+
 /* colori di sfondo */
 .bk-aqua{
   background-color: #00aab6;
@@ -142,4 +146,10 @@ button{
 /* display block */
 .block *{
   display: block;
+}
+
+/*stile link*/
+a{
+  text-decoration: none;
+  color: inherit;
 }
