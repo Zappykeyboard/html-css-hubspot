@@ -60,7 +60,7 @@
 
 /*sezione altri servizi*/
 #altri-servizi div div div{
-  padding:0 10px
+  padding:10px
 }
 
 #altri-servizi div{
@@ -71,6 +71,12 @@
   line-height: 1.5em
 }
 
+#altri-servizi button{
+  height: 50px;
+  width: 150px;
+  font-size: 100%;
+  margin: 10px auto;
+}
 
 /*intro community*/
 #community-intro{
