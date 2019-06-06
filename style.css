@@ -15,7 +15,7 @@
 }
 
 .x-tall{
-  height:500px;
+  height:400px;
 }
 
 /*setta position degli elementi a colonna*/
@@ -25,7 +25,11 @@
 
 
 /*larghezza elemento*/
-.full-width{
+.width-80{
+  width:80%;
+}
+
+.width-100{
   width: 100%;
 }
 
@@ -55,6 +59,10 @@
 
 .col-three-fourths{
   width: 75%;
+}
+
+.col-tenth{
+  width:10%;
 }
 
 /* Floats */
@@ -89,6 +97,15 @@ colonne flottanti come discendenti diretti */
 
 .text-right{
   text-align: right;
+}
+
+/*dimensioni font*/
+.text-small{
+  font-size: 70%
+}
+
+.text-smaller{
+  font-size:50%;
 }
 
 /* dimensioni delle immagini */
@@ -167,6 +184,11 @@ a{
   text-decoration: none;
   color: inherit;
 }
+/* stile li */
+li{
+  list-style: none;
+}
+
 
 /*segni di spunta tondi arancioni*/
 .orange-checkmark{
