@@ -47,10 +47,9 @@
   height: 80px;
 } 
 
-#community-first-row div div,
-#community-second-row div div{
-  height: 70px;
-
+#community-first-row div,
+#community-second-row div{
+  height: 100%;
 }
 
 .border-left
